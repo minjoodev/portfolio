@@ -1,31 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <title>박민주 포트폴리오</title>
-    <link rel="icon" href="img/favicon.ico"/>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="icon" href="images/favicon.ico"/>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/intro.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/webfont.css">
-    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="https://kit.fontawesome.com/51a4bc0c45.js"></script>
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/scrolling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/MorphSVGPlugin.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/intro.js"></script>
-    <script type="text/javascript" src="js/scroll.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/scrolling.js"></script>
+    <!-- <script type="text/javascript" src="https://kit.fontawesome.com/51a4bc0c45.js"></script> -->
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
 </head>
 <body>
-    <div class="bg-grey-lighter">
+    <div class="effect-wrap">
         <div id="blobs" class="fixed pin w-full h-full z-0 transition-transform-long transform_chrome">
             <div id="archive" class="flex items-center justify-center relative">
-                <div id="color1" class="absolute flex items-center justify-center z-1 w-150vw h-140vh transition-all text-red-dark">
+                <div id="color1" class="absolute flex items-center justify-center z-1 w-150vw h-140vh transition-all text-yellow">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" preserveAspectRatio="none" id="blob-archive" class="block fill-current w-full h-full transition-transform">
                         <path id="blob-1f" d="M412.31,66.64c-50-22.75-140.73-48.18-197-60.64C46.52-31.44-15,113.54,3,242.26,22.47,381.33,94.83,538.83,277.31,491.38,386.7,463,457.82,322.37,494.38,229,515,161.18,477,96.06,412.31,66.64Z"></path>
                         <path id="blob-1e" d="M476.23,131.25c-30.68-65.49-100.57-86-164.87-105.46-68-20.57-130.78-44.67-196.18-2.63C16.57,86.55-41.48,301.1,35.55,397.29c71.53,89.33,215.34,132.57,322.25,79.77C483.36,415.06,534,254.56,476.23,131.25Z"></path>
@@ -37,7 +34,7 @@
                 </div>
             </div>
             <div id="menu" class="flex items-center justify-center relative antialiased">
-                <div id ="color2" class="absolute flex items-center justify-center w-150vw h-130vh transition-all text-yellow">
+                <div id ="color2" class="absolute flex items-center justify-center w-150vw h-130vh transition-all text-orange">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" preserveAspectRatio="none" id="blob-menu" class="block w-full h-full fill-current transition-transform">
                         <path id="blob-2f" d="M23.77,368.75c30.68,65.49,100.57,86,164.87,105.46,68,20.57,130.78,44.67,196.18,2.63,98.61-63.39,156.66-277.94,79.63-374.13C392.92,13.38,249.11-29.86,142.2,22.94,16.64,84.94-34,245.44,23.77,368.75Z"></path>
                         <path id="blob-2e" d="M178.72,3.39C-17.49,21.79-35.13,226,44.1,366.74c53.48,95,151.1,161.1,267.74,121.63C376.26,466.57,421,417.69,441,355.74c19.92-61.55,61.88-148,58.84-212.25C492.33-15.32,299.33-3.48,178.72,3.39Z"></path>
@@ -49,7 +46,7 @@
                 </div>
             </div>
             <div id="contact" class="flex items-center justify-center relative z-2">
-                <div id="color3" class="absolute flex items-center justify-center w-150vw h-130vh transition-all text-blue-dark">
+                <div id="color3" class="absolute flex items-center justify-center w-150vw h-130vh transition-all text-coral">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" preserveAspectRatio="none" id="blob-contact" class="block fill-current w-full h-full transition-transform">
                         <path id="blob-3f" d="M488.38,220.92C442.41,106.12,402.54-33.2,245.79,7.1,175.25,25.24,143.91,79.33,96.57,128.29,44.25,182.4-.2,222.77,0,305.44.8,638.23,589.2,500,488.38,220.82Z"></path>
                         <path id="blob-3e" d="M499.82,156.85C503.5,84.11,450.43,28,380,13.94,325.51,3.08,230.53-.78,172.45.13-1.9,2.84-26.84,162.54,22.09,287.06c52.87,134.52,162,274.9,329.08,184C451.33,416.59,486.75,259,499.82,156.85Z"></path>
@@ -62,422 +59,436 @@
             </div>
         </div>
     </div>
-    <div class="start">   
-        <header id="header">
-            <section>
-                <h1>박민주 포트폴리오</h1>
-                <nav id="gnb">
+    <div class="wrap">   
+        <header class="header">
+            <div class="top">
+                <h1 class="logo"><a href="./index.html">박민주 로고</a></h1>
+                <nav class="gnb">
                     <ul>
-                        <li><a href="#">ABOUT ME</a></li>
-                        <li><a href="#">GRAPHIC/UI·UX</a></li>
-                        <li><a href="#">WEB</a></li>
-                        <li><a href="#">MULTI</a></li>
-                        <li><a href="#">DYNAMIC</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="javascript:void(0)">About</a></li>
+                        <li><a href="javascript:void(0)">Career</a></li>
+                        <li><a href="javascript:void(0)">Works</a></li>
+                        <li><a href="javascript:void(0)">Contact</a></li>
                     </ul>
                 </nav>
-                <ul class="indicator">
-                    <li><em>TOP</em></li>
-                    <li><em>PARK.M.J</em></li>
-                    <li><em>GRAPHIC/UI·UX</em></li>
-                    <li><em>WEB</em></li>
-                    <li><em>MULTI</em></li>
-                    <li><em>DYNAMIC</em></li>
-                    <li><em>CONTACT</em></li>
-                </ul>
-                <div class="intro">
-                    <div>
-                        <p class="p1"><em>P</em>ARK <em>M</em>IN <em>J</em>OO's</p>
-                        <p class="p2">PORTFOLIO</p>
-                    </div>     
-                </div>
-                <div class="arrow">
-                    <a href="#"><i class="fas fa-arrow-down"></i></a>
-                </div>
-            </section>
+            </div>
         </header>
-        <main id="main">
+        <main class="main">
             <h2 class="hidden">박민주 포트폴리오</h2>
-            <section id="menu1">
-                <h3 class="menu1_title">ABOUT ME</h3>
-                <div class="menu1_desc">
-                    <div class="menu1_desc">
-                        <dl>
-                            <dt>박민주</dt>
-                            <dd>1994.09.25<br>pmj4933@naver.com</dd>
-                        </dl>  
-                        <ul>
-                            <li><span class="bar1"></span>&nbsp;&nbsp;&nbsp;SKILL</li>
-                            <li>PhotoShop / Illustrator / Flash<br>Html / Css / Java</li>
-                        </ul>
-                        <ul>
-                            <li><span class="bar2"></span>&nbsp;&nbsp;&nbsp;LICENSE</li>
-                            <li><em>2019. 06&nbsp;&nbsp;</em> 웹디자인기능사자격증 취득<br><em>2019. 06&nbsp;&nbsp;</em> 컴퓨터그래픽스운용기능사자격증 취득<br><em>2019. 09&nbsp;&nbsp;</em> 스마트웹디자인&프론트엔드 과정 수료 (예정)</li>
-                        </ul>
-                        <img src="img/menu1-profile.png" alt="">
+            <section class="section">
+                <div class="intro">
+                    <div class="txt-box">
+                        <p class="txt01"><span>P</span>ARK <span>M</span>IN <span>J</span>OO's</p>
+                        <p class="txt02">PORTFOLIO</p>
                     </div>  
+                    <button type="button" class="arrow"><i class="fas fa-arrow-down"></i></button>   
                 </div>
             </section>
-            <section id="menu2">
-                <div>
-                    <h3 class="menu2_title">GRAPHIC/UI·UX</h3>
-                    <p class="desc">Photoshop, Illustrator를 활용한 그래픽/UI.UX 디자인</p>
-                    <div class="menu2_desc">
-                        <dl class="menu2_desc1">
-                            <dt class="hidden">PI project</dt>
-                            <dd class="menu2_thumb">
-                                <div><a href="#" data-toggle="modal" data-target="#g01"><img src="img/menu2-desc1.jpg" alt="SHOW PATIENCE PI 로고 이미지"></a></div>
-                            </dd>
-                            <dd class="thumb_txt"><p>Personal Identity</p><em>셀프브랜딩 로고 디자인</em></dd>
-                            <dd class="thumb_btn"><a href="#" data-toggle="modal" data-target="#g01">컨셉서 보기</a></dd>
-                        </dl>
-                        <!-- graphic-uiux modal -->
-                        <div class="modal fade" id="g01">
-                            <div class="modal-dialog" style="width: 1030px;">
+            <section class="section">
+                <div class="inner sec-profile">
+                    <h3 class="title">ABOUT ME</h3>
+                    <div class="profile">
+                        <div class="img-box">
+                            <div class="img modal-open">
+                                <div class="hover-txt">
+                                    <p>박민주</p>
+                                    <p>1994.09.25</p>
+                                    <p>동덕여자대학교 졸업</p>
+                                </div>
+                            </div>
+                            <div class="modal hide">
+                                <div class="dimm"></div>
                                 <div class="modal-content">
                                     <div class="modal-header">PI 프로젝트</div>
                                     <div class="modal-body">
-                                        <img src="graphic-uiux/pi/pi-concept.jpg" alt="">
+                                        <img src="images/project/pi-concept.jpg" alt="pi concept">
                                     </div>
                                     <div class="modal-footer">
-                                        <button class="btn btn-default" data-dismiss="modal">닫기</button>
+                                        <button type="button" class="modal-close">닫기</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <dl class="menu2_desc2">
-                            <dt class="hidden">Illustrator-photoshop</dt>
-                            <dd class="menu2_thumb">
-                                <div><a href="#" data-toggle="modal" data-target="#g02"><img src="img/menu2-desc3.jpg" alt="기차 일러스트 이미지"></a></div>
-                            </dd>
-                            <dd class="thumb_txt"><p>Graphic Design</p><em>일러스트레이터와 포토샵을 활용한 그래픽 디자인</em></dd>
-                            <dd class="thumb_btn"><a href="#" data-toggle="modal" data-target="#g02">작업물 보기</a></dd>
-                        </dl>
-                        <!-- graphic-uiux modal -->
-                        <div class="modal fade" id="g02">
-                            <div class="modal-dialog" style="width: 1030px;">
-                                <div class="modal-content">
-                                    <div class="modal-header">일러스트레이터 & 포토샵 작업</div>
-                                    <div class="modal-body">
-                                        <img src="graphic-uiux/illu-photo/illu-photo.jpg" alt="">
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button class="btn btn-default" data-dismiss="modal">닫기</button>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="txt-box">
+                            <p><span>"안녕하세요, 프론트엔드 개발자로 한층 성장하고 싶은 퍼블리셔 박민주입니다."</span>
+                                웹/앱 광고 대행 업체에서 2년 7개월 이상 재직 중입니다.<br>
+                                현재에 안주하지 않고 발전하기 위해 끊임없이 도전하고 있습니다.<br>
+                                더 나아가기 위한 열정 보여드리겠습니다.
+                            </p>
                         </div>
-                        <dl class="menu2_desc3">
-                            <dt class="hidden">Flash</dt>
-                            <dd class="menu2_thumb">
-                                <div><a href="#" data-toggle="modal" data-target="#g03"><img src="img/menu2-desc2.jpg" alt="지구에서 자전거를 타고 있는 여자 이미지 플래시 애니메이션"></a></div>
-                            </dd>
-                            <dd class="thumb_txt"><p>Flash Animation</p><em>플래시를 이용한 2D 애니메이션</em></dd>
-                            <dd class="thumb_btn"><a href="#" data-toggle="modal" data-target="#g03">작업물 보기</a></dd>
-                        </dl>
-                        <!-- graphic-uiux modal -->
-                        <div class="modal fade" id="g03">
-                            <div class="modal-dialog" style="width: 1030px;">
-                                <div class="modal-content">
-                                    <div class="modal-header">플래시 작업</div>
-                                    <div class="modal-body">
-                                        <video src="graphic-uiux/flash/flash.mp4" width="1000px" height="auto" preload="auto" loop autoplay muted></video>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button class="btn btn-default" data-dismiss="modal">닫기</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--<dl class="menu2_desc4">
-                            <dt class="hidden">ui/ux</dt>
-                            <dd class="menu2_thumb">
-                                <div><a href="#"><img src="" alt=""></a></div>
-                            </dd>
-                            <dd class="thumb_txt"><p></p><em>/em></dd>
-                            <dd class="thumb_btn"><a href=""></a>컨셉서 보기</dd>
-                        </dl>
-                        --graphic-uiux modal--
-                        <div></div>-->
-                    </div>
+                    </div> 
                 </div>
             </section>
-            <section id="menu3">
-                <h3 class="menu3_title">WEB RENEWAL PROJECT</h3>
-                <p class="desc">기획서 작성, HTML, CSS, 그누보드를 활용한 웹 리뉴얼 프로젝트</p>
-                <div class="menu3_desc">
-                    <ul class="menu3_desc1">
-                        <h1><b>뚜레쥬르</b> 웹사이트 리뉴얼</h1>
-                        <li class="web1-img">
-                            <div class="inner">
-                                <div class="pfImg">
-                                    <p class="pc">pc사이트<span></span>
-                                    <i>마우스를<br>올려보세요</i></p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="web1-txt tlj-txt"><span>그누보드5</span>를 이용하여 실제 구동 가능한 웹페이지로 제작한 프로젝트입니다.
-                        </li>
-                        <li>
-                            <ul class="web1_btn2 web_btn_common tlj_btn">
-                                <li>
-                                    <a href="#" data-toggle="modal" data-target="#web01">컨셉서 보기</a>
-                                </li>
-                                <li>
-                                    <a href="http://minjoo4933b.dothome.co.kr/" target="_blank">WEB 바로가기</a>
-                                </li>
-                                <li>
-                                    <a href="web/web1/tlj-project.pptx" title="뚜레쥬르 웹리뉴얼 기획서" download="tlj_planning">기획서 다운로드</a>
-                                </li>
+            <section class="section">
+                <div class="inner sec-skill">
+                    <h3 class="title">CAREER&middot;SKILL</h3>
+                    <div class="career-list">
+                        <div class="list-item">
+                            <p class="name">(주) 미플즈<span class="date">2019.09 ~ 현재</span></p>
+                            <ul class="dot-list">
+                                <li>Vue.js에 기반한 Git으로 관리하는 현업 프로젝트에 참여하여 Sass를 활용한 컴포넌트 작업을 진행하였습니다.</li>
+                                <li>HTML, CSS, jQuery, Javascript를 활용하여 크로스브라우징 환경에서의 반응형 웹 사이트 구축 작업을 진행하였습니다.</li>
+                                <li>주도적으로 React.js 강의를 듣고 모바일 앱을 구축하며 AJAX 비동기 작업 처리를 진행하였습니다.</li>
                             </ul>
-                        </li>
-                        <li>
-                            <ul class="web1_date">
-                                <li>
-                                    <p>
-                                        <em>기&nbsp;&nbsp;&nbsp;획</em>
-                                        2019.07.03 - 2019.07.07
-                                    </p>
-                                    <p>
-                                        <em>디자인</em>
-                                        2019.07.08 - 2019.07.15
-                                    </p>
-                                    <p>    
-                                        <em>코&nbsp;&nbsp;&nbsp;딩</em>
-                                        2019.07.17 - 2019.07.23
-                                    </p>
-                                </li>
-                                <li>
-                                    <p class="p1">신선함을 담은 베이커리, 뚜레쥬르</p>
-                                    <p class="p2">신선하고 따뜻한 느낌을 추구하는 브랜드 이미지와<br>매치되는 컨셉으로 디자인하였습니다.</p>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="menu3_desc1">
-                        <h1><b>부산해양자연사박물관</b> 웹사이트 리뉴얼</h1>
-                        <li class="web2-img">
-                            <div class="inner">
-                                <div class="pfImg">
-                                    <p class="pc">pc사이트<span></span>
-                                    <i>마우스를<br>올려보세요</i></p>
-                                </div>
-                            </div> 
-                        </li>
-                        <li class="web1-txt">HTML, CSS를 이용하여 부산해양자연사박물관의 웹사이트를 리뉴얼한 프로젝트입니다.
-                        </li>
-                        <li>
-                            <ul class="web1_btn2 web_btn_common busan_btn">
-                                <li>
-                                    <a href="#" data-toggle="modal" data-target="#web02">컨셉서 보기</a>
-                                </li>
-                                <li>
-                                    <a href="http://minjoo4933a.dothome.co.kr/" target="_blank">WEB 바로가기</a>
-                                </li>
-                                <li>
-                                    <a href="web/web2/busan-project.pptx" title="부산해양자연사박물관 웹리뉴얼 기획서" download="busan_planning">기획서 다운로드</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="web1_date">
-                                <li>
-                                    <p>
-                                        <em>기&nbsp;&nbsp;&nbsp;획</em>
-                                        2019.06.03 - 2019.06.07
-                                    </p>
-                                    <p>    
-                                        <em>디자인</em>
-                                        2019.06.10 - 2019.06.14
-                                    </p>
-                                    <p>
-                                        <em>코&nbsp;&nbsp;&nbsp;딩</em>
-                                        2019.06.17 - 2019.06.21
-                                    </p>
-                                </li>
-                                <li>
-                                    <p class="p1">살아있는 자연체험장, 부산해양자연사박물관</p>
-                                    <p class="p2">박물관 이미지에 맞는 블루 계열의 컬러 사용량을 높이고<br>시각적인 요소를 강화하여 디자인하였습니다.</p>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="menu3_desc1">
-                        <h1><b>이케아</b> 반응형 웹사이트</h1>
-                        <li class="web3-img">
-                            <div class="inner">
-                                <div class="pfImg">
-                                    <p class="pc">pc사이트<span></span>
-                                    <i>마우스를<br>올려보세요</i></p>
-                                    <p id="mobile" class="mobie animate" data-animate="fadeInLeft" data-duration="1.5s" data-delay="0.1s" data-offset="100" style="animation-duration: 1.5s; animation-delay: 0.1s; visibility: hidden;">모바일사이트</p>
-                                    <p id="tablet" class="tablet animate" data-animate="fadeInRight" data-duration="1.5s" data-delay="0.1s" data-offset="100" style="animation-duration: 1.5s; animation-delay: 0.1s; visibility: hidden;">타블렛사이트</p>
-                                </div>
-                            </div> 
-                        </li>
-                        <li class="web1-txt ikea-txt">HTML, CSS를 이용하여 이케아의 웹사이트를 반응형으로 리뉴얼한 프로젝트입니다.
-                        </li>
-                        <li>
-                            <ul class="web1_btn2 web_btn_common ikea_btn">
-                                <li>
-                                    <a href="http://minjoo4933c.dothome.co.kr/" target="_blank">WEB 바로가기</a>
-                                </li>
-                                <li>
-                                    <a href="#" data-toggle="modal" data-target="#web03">컨셉서 보기</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="web1_date">
-                                <li>
-                                    <p>
-                                        <em>기&nbsp;&nbsp;&nbsp;획</em>
-                                        2019.08.14 - 2019.08.17
-                                    </p>
-                                    <p>
-                                        <em>디자인</em>
-                                        2019.08.19 - 2019.08.20
-                                    </p>
-                                    <p>
-                                        <em>코&nbsp;&nbsp;&nbsp;딩</em>
-                                        2019.08.20 - 2019.08.22
-                                    </p>
-                                </li>
-                                <li>
-                                    <p class="p1">이케아 반응형 웹사이트</p>
-                                    <p class="p2">사용자의 디바이스 스크린 크기에 맞춰 사이즈가<br>반영되는 반응형 웹 사이트로 리뉴얼 하였습니다.</p>                
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <!-- web modal -->
-                    <div class="modal fade" id="web01">
-                        <div class="modal-dialog" style="width: 1030px;">
-                            <div class="modal-content">
-                                <div class="modal-header">뚜레쥬르 웹리뉴얼 프로젝트</div>
-                                <div class="modal-body">
-                                    <img src="web/web1/tlj-concept.jpg" alt="">
-                                </div>
-                                <div class="modal-footer">
-                                    <button class="btn btn-default" data-dismiss="modal">닫기</button>
-                                </div>
-                            </div>
                         </div>
-                    </div>
-                    <div class="modal fade" id="web02">
-                        <div class="modal-dialog" style="width: 1030px;">
-                            <div class="modal-content">
-                                <div class="modal-header">부산해양자연사박물관 웹리뉴얼 프로젝트</div>
-                                <div class="modal-body">
-                                    <img src="web/web2/busan-concept.jpg" alt="">
-                                </div>
-                                <div class="modal-footer">
-                                    <button class="btn btn-default" data-dismiss="modal">닫기</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal fade" id="web03">
-                        <div class="modal-dialog" style="width: 1030px;">
-                            <div class="modal-content">
-                                <div class="modal-header">이케아 웹리뉴얼 프로젝트</div>
-                                <div class="modal-body">
-                                    <img src="web/web3/ikea-concept.jpg" alt="">
-                                </div>
-                                <div class="modal-footer">
-                                    <button class="btn btn-default" data-dismiss="modal">닫기</button>
-                                </div>
-                            </div>
+                        <div class="list-item">
+                            <p class="name">이젠아카데미컴퓨터학원 강남캠퍼스<span class="date">2019.03 ~ 2019.09</span></p>
+                            <ul class="dot-list">
+                                <li>기획부터 디자인과 HTML, CSS, jQuery, Javascript, 그누보드를 활용하여 웹 리뉴얼 프로젝트를 작업하였습니다.</li>
+                                <li>프론트엔드 훈련 과정을 이수하며 동시에 웹디자인기능사 & 컴퓨터그래픽스운용기능사 자격증을 취득하였습니다.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="menu4">
-                <div>
-                    <h3 class="menu4_title">MULTI</h3>
-                    <p class="desc">HTML, CSS를 활용한 Hover Effet</p>
-                    <div class="menu4_desc">
-                        <article class="hover1">
-                            <h1>THE <span>GALAXY</span></h1>
-                            <p>There are stars in the galaxy beyond number.</p>
-                            <figure>
-                                <figcaption class="hidden">밤하늘</figcaption>
-                                <img src="img/hover-effect01.jpg" alt="">
-                            </figure>
-                            <ul>
-                                <li><i class="fas fa-cloud-moon"></i></li>
-                                <li><i class="fas fa-paper-plane"></i></li>
-                                <li><i class="fas fa-cog"></i></li>
+            <section class="section">
+                <div class="inner sec-work">
+                    <h3 class="title">WORKS</h3>
+                    <ul class="work-list">                   
+                        <li class="list-item">
+                            <div>
+                                <div class="thumb">
+                                    <div class="thumb-mobile-wrap">
+                                        <span><img src="images/project/kolon-salesworx.png" alt="코오롱베니트 인사 시스템 SalesWorX"></span>
+                                        <span class="thumb-mobile"><img src="images/project/kolon-salesworx-mobile.png" alt="코오롱베니트 인사 시스템 SalesWorX"></span>
+                                    </div>
+                                    <div class="hover-txt">
+                                        <div>
+                                            <span class="tit">Use Tools</span>
+                                            <ul class="tool-list">
+                                                <li><i class="fa-brands fa-vuejs"></i> Vue.js</li>
+                                                <li><i class="fa-brands fa-sass"></i> SASS</li>
+                                                <li><i class="fa-brands fa-sourcetree"></i> Sourcetree</li>
+                                                <li><i class="fa-brands fa-slack"></i> Slack</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="title">코오롱베니트 SalesWorX 솔루션</h4>
+                                <p class="desc">반응형 인사 시스템 개선 구축 프로젝트</p>
+                                <div class="time"><span>작업기간</span> 2021.07 ~ 2022.01</div>
+                            </div>
+                            <ul class="btn-box">
+                                <li><a href="javascript:void(0)" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View</a></li>
                             </ul>
-                        </article>
-                        <article class="hover2">
-                            <h1>VAST <span>PLAINS</span></h1>
-                            <p>The green grassland extends endlessly.</p>
-                            <figure>
-                                <figcaption class="hidden">초원</figcaption>
-                                <img src="img/hover-effect02.jpg" alt="">
-                            </figure>
-                            <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                        </li>
+                        <li class="list-item">
+                            <div>
+                                <div class="thumb">
+                                    <span><img src="images/project/kolon-peopleworx.png" alt="코오롱베니트 인사 시스템 PeopleWorX"></span>
+                                    <div class="hover-txt">
+                                        <div>
+                                            <span class="tit">Use Tools</span>
+                                            <ul class="tool-list">
+                                                <li><i class="fa-brands fa-vuejs"></i> Vue.js</li>
+                                                <li><i class="fa-brands fa-sass"></i> SASS</li>
+                                                <li><i class="fa-brands fa-sourcetree"></i> Sourcetree</li>
+                                                <li><i class="fa-brands fa-slack"></i> Slack</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="title">코오롱베니트 PeopleWorX 솔루션</h4>
+                                <p class="desc">인사 시스템 개선</p>
+                                <div class="time"><span>작업기간</span> 2021.01 ~ 2022.02</div>
+                            </div>
+                            <ul class="btn-box">
+                                <li><a href="javascript:void(0)" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View</a></li>
                             </ul>
-                        </article>
-                        <article class="hover3">
-                            <h1><span>A SUNSET</span> GLOW</h1>
-                            <p>The flower grows close to the ground.</p>
-                            <figure>
-                                <figcaption class="hidden">꽃</figcaption>
-                                <img src="img/hover-effect03.jpg" alt="">
-                            </figure>
-                            <ul>
-                                <li><i class="far fa-thumbs-up"></i></li>
-                                <li><i class="far fa-heart"></i></li>
-                                <li><i class="far fa-envelope"></i></li>
+                        </li> 
+                        <li class="list-item">
+                            <div>
+                                <div class="thumb">
+                                    <div class="thumb-mobile-wrap">
+                                        <span><img src="images/project/ollywise.png" alt="올리와이즈"></span>
+                                        <span class="thumb-mobile"><img src="images/project/ollywise-mobile.png" alt="올리와이즈"></span>
+                                    </div>
+                                    <div class="hover-txt">
+                                        <div>
+                                            <span class="tit">Use Tools</span>
+                                            <ul class="tool-list">
+                                                <li><i class="fa-brands fa-html5"></i> HTML5</li>
+                                                <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+                                                <li><span class="icon icon-jquery"></span> jQuery</li>
+                                                <li><i class="fa-brands fa-js-square"></i> Javascript</li>
+                                                <li><i class="fa-brands fa-figma"></i> Figma</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="title">올리와이즈</h4>
+                                <p class="desc">반응형 신규 구축 작업</p>
+                                <div class="time"><span>작업기간</span> 2021.07 ~ 2022.01</div>
+                            </div>
+                            <ul class="btn-box">
+                                <li><a href="javascript:void(0)" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View</a></li>
                             </ul>
-                            <div></div>
-                        </article>
-                        <article>
-    	                    <figure class="hover4">
-    	                    	<img src="img/hover-effect04.jpg" alt="">
-    	                    	<figcaption>
-    	                    		<h1><span>DROPS</span> OF RAIN</h1>
-    	                    		<p>Rain or shine, we gotta go.</p>
-    	                    		<a href="#">View more</a>
-    	                    	</figcaption>			
-    	                    </figure>
-                        </article>
-                    </div>
-                </div>
-            </section>
-            <section id="menu5">
-                <div>
-                    <h3 class="menu2_title">DYNAMIC</h3>
-                    <p class="desc">CSS3와 Jquery를 활용한 동영상, 반응형 웹디자인</p>
-                    <dl class="menu5_desc1">
-                        <dt class="hidden">아디다스 웹디자인</dt>
-                        <dd class="dyn-img"><a href="dy/dy01/index.html" target="_blank"><img src="img/dy-web1.jpg" alt="아디다스 동영상 웹디자인"></a></dd>
-                        <dd class="dyn-txt"><p>ADIDAS</p><em>동영상을 활용한 다이나믹 웹 프로젝트</em></dd>
-                        <dd class="dyn-btn">
-                            <a href="dy/dy01/index.html" target="_blank">WEB 바로가기</a>
-                        </dd>
-                    </dl>
-                    <dl class="menu5_desc2">
-                        <dt class="hidden">샤넬 웹디자인</dt>
-                        <dd class="dyn-img"><a href="dy/dy02/index.html"><img src="img/dy-web2.jpg" alt="샤넬 반응형 웹디자인"></a></dd>
-                        <dd class="dyn-txt"><p>CHANEL</p><em>윈도우 크기에 따른 반응형 웹 프로젝트</em></dd>
-                        <dd class="dyn-btn">
-                            <a href="dy/dy02/index.html" target="_blank">WEB 바로가기</a>
-                        </dd>
-                    </dl>
+                        </li>
+                        <li class="list-item">
+                            <div>
+                                <div class="thumb">
+                                    <div>
+                                        <span class="thumb-mobile"><img src="images/project/hyundai-mh-login.png" alt="현대 M/H 관리시스템"></span>
+                                        <span class="thumb-mobile"><img src="images/project/hyundai-mh.png" alt="현대 M/H 관리시스템"></span>
+                                    </div>
+                                    <div class="hover-txt">
+                                        <div>
+                                            <span class="tit">Use Tools</span>
+                                            <ul class="tool-list">
+                                                <li><i class="fa-brands fa-html5"></i> HTML5</li>
+                                                <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+                                                <li><span class="icon icon-jquery"></span> jQuery</li>
+                                                <li><i class="fa-brands fa-js-square"></i> Javascript</li>
+                                                <li> <i class="fa-brands fa-figma"></i> Figma</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="title">현대 M/H 관리시스템 모바일</h4>
+                                <p class="desc">모바일 인사 시스템 개선 작업</p>
+                                <div class="time"><span>작업기간</span> 2022.01</div>
+                            </div>
+                            <ul class="btn-box">
+                                <li><a href="javascript:void(0)" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-item">
+                            <div>
+                                <div class="thumb">
+                                    <div class="thumb-mobile-wrap">
+                                        <span><img src="images/project/grandeye.png" alt="강남그랜드안과"></span>
+                                        <span class="thumb-mobile"><img src="images/project/grandeye-mobile.png" alt="강남그랜드안과"></span>
+                                    </div>
+                                    <div class="hover-txt">
+                                        <div>
+                                            <span class="tit">Use Tools</span>
+                                            <ul class="tool-list">
+                                                <li><i class="fa-brands fa-html5"></i> HTML5</li>
+                                                <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+                                                <li><span class="icon icon-jquery"></span> jQuery</li>
+                                                <li><i class="fa-brands fa-js-square"></i> Javascript</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="title">강남그랜드안과</h4>
+                                <p class="desc">반응형 웹/앱 개선 작업</p>
+                                <div class="time"><span>작업기간</span> 2021.06 ~ 2021.07</div>
+                            </div>
+                            <ul class="btn-box">
+                                <li><a href="javascript:void(0)" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-item">
+                            <div>
+                                <div class="thumb">
+                                    <span><img src="images/project/kpmg.png" alt="삼정KPMG"></span>
+                                    <div class="hover-txt">
+                                        <div>
+                                            <span class="tit">Use Tools</span>
+                                            <ul class="tool-list">
+                                                <li><i class="fa-brands fa-html5"></i> HTML5</li>
+                                                <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+                                                <li><span class="icon icon-jquery"></span> jQuery</li>
+                                                <li><i class="fa-brands fa-js-square"></i> Javascript</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="title">삼정KPMG</h4>
+                                <p class="desc">채용 사이트 구축 작업</p>
+                                <div class="time"><span>작업기간</span> 2021.02 ~ 2021.04</div>
+                            </div>
+                            <ul class="btn-box">
+                                <li><a href="javascript:void(0)" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-item">
+                            <div>
+                                <div class="thumb">
+                                    <span><img src="images/project/1gram.png" alt="수업 온라인 강의 1gram"></span>
+                                    <div class="hover-txt">
+                                        <div>
+                                            <span class="tit">Use Tools</span>
+                                            <ul class="tool-list">
+                                                <li><i class="fa-brands fa-html5"></i> HTML5</li>
+                                                <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+                                                <li><span class="icon icon-jquery"></span> jQuery</li>
+                                                <li><span class="fa-brands fa-bootstrap"></span> Bootstrap</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="title">수업 온라인 강의 1gram</h4>
+                                <p class="desc">강의사이트 & 관리자사이트 개선 작업</p>
+                                <div class="time"><span>작업기간</span> 2020.12 ~ 2021.06</div>
+                            </div>
+                            <ul class="btn-box">
+                                <li><a href="javascript:void(0)" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-item">
+                            <div>
+                                <div class="thumb">
+                                    <span><img src="images/project/daeduck.png" alt="대덕전자"></span>
+                                    <div class="hover-txt">
+                                        <div>
+                                            <span class="tit">Use Tools</span>
+                                            <ul class="tool-list">
+                                                <li><i class="fa-brands fa-html5"></i> HTML5</li>
+                                                <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+                                                <li><span class="icon icon-jquery"></span> jQuery</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="title">대덕전자 채용 사이트</h4>
+                                <p class="desc">채용 사이트 개선 작업</p>
+                                <div class="time"><span>작업기간</span> 2020.08</div>
+                            </div>
+                            <ul class="btn-box">
+                                <li><a href="javascript:void(0)" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-item">
+                            <div>
+                                <div class="thumb">
+                                    <div>
+                                        <span class="thumb-mobile"><img src="images/project/daeduck-mobile-join.png" alt="대덕전자"></span>
+                                        <span class="thumb-mobile"><img src="images/project/daeduck-mobile.png" alt="대덕전자"></span>
+                                    </div>
+                                    <div class="hover-txt">
+                                        <div>
+                                            <span class="tit">Use Tools</span>
+                                            <ul class="tool-list">
+                                                <li><span class="icon icon-nexacro"></span> Nexacro</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="title">대덕전자 인사시스템 </h4>
+                                <p class="desc">모바일 개선 작업</p>
+                                <div class="time"><span>작업기간</span> 2020.11</div>
+                            </div>
+                            <ul class="btn-box">
+                                <li><a href="javascript:void(0)" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-item">
+                            <div>
+                                <div class="thumb">
+                                    <div class="thumb-mobile-wrap">
+                                        <span><img src="images/project/skt.png" alt="SK 텔레콤"></span>
+                                        <span class="thumb-mobile"><img src="images/project/skt-mobile.png" alt="SK 텔레콤"></span>
+                                    </div>
+                                    <div class="hover-txt">
+                                        <div>
+                                            <span class="tit">Use Tools</span>
+                                            <ul class="tool-list">
+                                                <li><i class="fa-brands fa-html5"></i> HTML5</li>
+                                                <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+                                                <li><span class="icon icon-jquery"></span> jQuery</li>
+                                                <li><i class="fa-brands fa-js-square"></i> Javascript</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="title">SK 텔레콤 채용 사이트</h4>
+                                <p class="desc">채용 사이트 반응형 개선 작업</p>
+                                <div class="time"><span>작업기간</span> 2020.01</div>
+                            </div>
+                            <ul class="btn-box">
+                                <li><a href="javascript:void(0)" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-item">
+                            <div>
+                                <div class="thumb">
+                                    <div class="thumb-mobile-wrap">
+                                        <span><img src="images/project/minish.png" alt="미니쉬치과"></span>
+                                        <span class="thumb-mobile"><img src="images/project/minish-mobile.png" alt="미니쉬치과"></span>
+                                    </div>
+                                    <div class="hover-txt">
+                                        <div>
+                                            <span class="tit">Use Tools</span>
+                                            <ul class="tool-list">
+                                                <li><i class="fa-brands fa-html5"></i> HTML5</li>
+                                                <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+                                                <li><span class="icon icon-jquery"></span> jQuery</li>
+                                                <li><i class="fa-brands fa-js-square"></i> Javascript</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="title">미니쉬 치과</h4>
+                                <p class="desc">반응형 개선 작업 & 이후 유지보수</p>
+                                <div class="time"><span>작업기간</span> 2020.10 ~ 2021.09</div>
+                            </div>
+                            <ul class="btn-box">
+                                <li><a href="javascript:void(0)" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-item">
+                            <div>
+                                <div class="thumb">
+                                    <div>
+                                        <span class="thumb-mobile"><img src="images/project/medibeu.png" alt="메디뷰"></span>
+                                        <span class="thumb-mobile"><img src="images/project/medibeu-mypage.png" alt="메디뷰"></span>
+                                    </div>
+                                    <div class="hover-txt">
+                                        <div>
+                                            <span class="tit">Use Tools</span>
+                                            <ul class="tool-list">
+                                                <li><i class="fa-brands fa-html5"></i> HTML5</li>
+                                                <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+                                                <li><span class="icon icon-jquery"></span> jQuery</li>
+                                                <li><i class="fa-brands fa-js-square"></i> Javascript</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="title">메디뷰 플랫폼</h4>
+                                <p class="desc">모바일 앱 구축 작업</p>
+                                <div class="time"><span>작업기간</span> 2020.09 ~ 2020.12</div>
+                            </div>
+                            <ul class="btn-box">
+                                <li><a href="javascript:void(0)" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-item">
+                            <div>
+                                <div class="thumb">
+                                    <div>
+                                        <span class="thumb-mobile"><img src="images/project/panting-mobile.png" alt="판팅"></span>
+                                        <span class="thumb-mobile"><img src="images/project/panting-mobile-join.png" alt="판팅"></span>
+                                    </div>
+                                    <div class="hover-txt">
+                                        <div>
+                                            <span class="tit">Use Tools</span>
+                                            <ul class="tool-list">
+                                                <li><i class="fa-brands fa-react"></i> React.js</li>
+                                                <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="title">메디뷰 플랫폼</h4>
+                                <p class="desc">모바일 앱 구축 작업</p>
+                                <div class="time"><span>작업기간</span> 2020.09 ~ 2020.12</div>
+                            </div>
+                            <ul class="btn-box">
+                                <li><a href="javascript:void(0)" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </section>
         </main>
-        <footer id="footer">
+        <footer class="footer">
             <section>
                 <p class="f-text1">Thank you for watching.</p>
                 <address><em>010 4120 4933</em><br>pmj4933@naver.com</address>
-                <p class="f-text2">해당 포트폴리오는 최신 프로그램을 사용함에 크롬과 1920&#42;1080해상도에 최적화되었습니다.<br>Copyright@2019 by PARK MIN JOO. all rights reserved.</p>
+                <p class="f-text2">해당 포트폴리오는 Chrome에 최적화되었습니다.<br>Copyright@2019 by PARK MIN JOO. all rights reserved.</p>
             </section>
         </footer>
     </div>

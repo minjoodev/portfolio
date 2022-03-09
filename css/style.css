@@ -1,0 +1,68 @@
+@charset "utf-8";
+.header .top {position: fixed; left: 20px; right: 0; top: 20px; display: flex; align-items: center; justify-content: space-between; width:calc(100% - 40px);}
+.header .logo {width: 60px; height: 37px; background: url(../images/logo.png) no-repeat center; background-size: contain; text-indent: -9999px;}
+.header .logo a {display: block; width:100%; height:100%;}
+
+.gnb ul {display: flex; justify-content: space-around;}
+.gnb ul li {padding: 0 20px; font-size: 24px; font-family: 'Jua', sans-serif; color:#555;}
+
+.intro {position: relative; display: flex; align-items:center; justify-content: center; height: 100vh;}
+.intro .txt-box {color:#222; font-size: 100px; text-align: center; font-family: 'Jua', sans-serif; line-height: 1.3;}
+.intro .txt01 span:nth-child(1){color: #ee4b43}
+.intro .txt01 span:nth-child(2){color: #f46938}
+.intro .txt01 span:nth-child(3){color: #f7d343}
+.intro .txt01 {-webkit-animation: fadeUp 2s .3s ease both; animation: fadeUp 2s .3s ease both} 
+.intro .txt02 {-webkit-animation: fadeUp 2s .5s ease both; animation: fadeUp 2s .5s ease both}
+
+.arrow {position: absolute; bottom: 90px; left: 50%; transform: translateX(-50%);}
+.arrow i {position:relative; top: 0; font-size: 45px; transition: all 0.4s; -webkit-animation: fadeUp 2s 135s ease both; animation: fadeUp 2s 1.3s ease both; transition: all .4s;}
+.arrow i:hover {top: 5px;}
+
+.profile .img-box {padding-top: 50px;}
+.profile .img {position: relative; width: 350px; height: 350px; margin: 0 auto; background: url('../images/img-profile.png') no-repeat center; background-size: contain; border-radius: 50%; box-shadow: 5px 5px 10px rgba(0, 0, 0, .1); cursor: pointer; animation: shadow 1.5s .2s infinite;}
+.profile .hover-txt {position: absolute; left: 0; top: 0; display:flex; justify-content:center; flex-direction: column; width:100%; height:100%; opacity: 0; border-radius: 50%; background-color: rgba(256,256,256,.5); transition: all .5s;}
+.profile .hover-txt p {font-weight: 500; font-size: 20px;}
+.profile .img:hover .hover-txt {opacity: 1;}
+.profile .txt-box {padding-top: 30px;}
+.profile .txt-box span {display:block; padding-bottom: 5px; font-size: 18px; font-weight: 500; color:#222;}
+
+.sec-skill {max-width: 1080px; margin: 0 auto;}
+.sec-skill h3:before {background-color: #ffbea1;}
+.career-list {padding-top: 50px; text-align: left;}
+.career-list .list-item {padding: 15px 0;}
+.career-list .list-item .name {padding-bottom: 5px; font-size: 22px; color: #222; font-weight: 600;}
+.career-list .list-item .date {display:inline-block; padding-left: 10px; font-size: 17px; color: #555; font-weight: 400;}
+.dot-list li {position: relative; padding-left: 10px; font-size: 17px;}
+.dot-list li:before {content:'';position: absolute; left: 0; top: 11px; width: 4px; height: 4px; background-color: #333; border-radius: 50%;}
+
+.sec-work h3:before {background-color: #ffbfb7;}
+.work-list .thumb {position: relative; width: 100%; height: 270px; overflow: hidden; cursor: pointer; border-radius: 10px;}
+.work-list .thumb .hover-txt {opacity: 0; position: absolute; left: 0; top: 0; width: 100%; height: 0; display: flex; align-items: center; justify-content: center; background-color: rgba(0,0,0,.5); color: #fff; transition: all .3s;}
+.work-list .thumb .hover-txt .tit {font-size: 24px;}
+.work-list .thumb:hover .hover-txt {height: 100%; opacity: 1;}
+.work-list .title {padding-top: 25px; font-size: 22px; font-weight: 600;}
+.work-list .desc {padding-top: 12px; font-size: 18px; font-weight: 300;}
+.work-list .time {padding-top: 12px; font-size: 15px; color: #666; font-weight: 300;}
+.work-list .time > span {padding: 3px 10px; margin-right: 10px; background-color: #e9e8ea; color: #111; border-radius: 50px;}
+.work-list .btn-box {display: flex; align-items: center; justify-content: center; padding-top: 20px;}
+.work-list .btn-box li {border: 1px solid #333; border-radius: 5px; border-bottom: 3px solid #333; transition: all .2s;}
+.work-list .btn-box li:hover {transform: translateY(2px);  border-bottom: 1px solid #333;}
+.work-list .btn-box li:active {transform: translateY(2px);}
+.work-list .btn-box li a {display: block; width: 100%; height: 100%; padding: 7px 20px; font-size: 16px;}
+
+
+.tool-list {display: flex; flex-wrap: wrap; justify-content: center; padding: 20px;}
+.tool-list li {display: flex; align-items: center; margin: 6px 5px; padding: 7px 15px; background-color:rgba(255,255,255,.92); border-radius: 50px; font-weight: 400; line-height: 1; white-space: nowrap; letter-spacing: 0; color: #222;}
+
+.thumb-mobile {display: inline-block; height: 270px;}
+.thumb-mobile img {width: 100%; height: 100%;}
+.thumb-mobile-wrap {position: relative;}
+.thumb-mobile-wrap .thumb-mobile {position: absolute; right: -1px; bottom: 0; width: 100px; height: auto;}
+
+@media (min-width: 1440px) {
+    .work-list {display: flex; flex-wrap: wrap;} 
+    .work-list .list-item {width: 33%; padding: 50px 40px;} 
+}
+
+
+
